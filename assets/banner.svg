@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="50%" stop-color="#0f141c" />
+      <stop offset="100%" stop-color="#05070a" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <radialGradient id="glowRed" cx="20%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#ff0033" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.25;0.45;0.25" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff0033" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowViolet" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.35;0.2;0.35" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25">
+        <animate attributeName="stop-opacity" values="0.15;0.35;0.15" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#fca5a5" />
+      <stop offset="100%" stop-color="#ff4d6d" />
+    </linearGradient>
+
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Filter for soft neon dropshadow -->
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="neonRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff0033" flood-opacity="0.8" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.8px;
+        fill: url(#textGrad);
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        fill: #94a3b8;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #e2e8f0;
+      }
+      .anim-pulse {
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .anim-dash {
+        stroke-dasharray: 8 12;
+        animation: dashFlow 25s linear infinite;
+      }
+      .anim-float1 {
+        animation: floatY1 6s ease-in-out infinite alternate;
+      }
+      .anim-float2 {
+        animation: floatY2 7s ease-in-out infinite alternate;
+      }
+      .anim-float3 {
+        animation: floatY3 5.5s ease-in-out infinite alternate;
+      }
+      .anim-float4 {
+        animation: floatY4 6.5s ease-in-out infinite alternate;
+      }
+      .anim-glow {
+        animation: glowPulse 3s ease-in-out infinite alternate;
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 400; }
+      }
+      @keyframes floatY1 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-7px); }
+      }
+      @keyframes floatY2 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(6px); }
+      }
+      @keyframes floatY3 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+      @keyframes floatY4 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(7px); }
+      }
+      @keyframes glowPulse {
+        0% { opacity: 0.4; }
+        100% { opacity: 0.9; }
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGradient)" rx="16" />
+
+  <!-- Ambient Light Orbs -->
+  <rect width="1200" height="360" fill="url(#glowRed)" rx="16" />
+  <rect width="1200" height="360" fill="url(#glowViolet)" rx="16" />
+  <rect width="1200" height="360" fill="url(#glowCyan)" rx="16" />
+
+  <!-- Subtle Background Grid -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Dynamic Network / Community Constellation Paths (in background) -->
+  <g opacity="0.25">
+    <path class="anim-dash" d="M 80,180 Q 250,90 400,160 T 750,140 T 1120,200" fill="none" stroke="#ff0033" stroke-width="2" />
+    <path class="anim-dash" d="M 120,260 Q 350,290 600,220 T 950,260 T 1140,110" fill="none" stroke="#8b5cf6" stroke-width="1.8" />
+    <path class="anim-dash" d="M 180,80 Q 500,40 700,90 T 1080,80" fill="none" stroke="#06b6d4" stroke-width="1.5" />
+  </g>
+
+  <!-- Glowing Constellation Nodes -->
+  <g>
+    <circle cx="160" cy="110" r="4" fill="#ff0033" class="anim-glow" />
+    <circle cx="280" cy="240" r="3.5" fill="#8b5cf6" class="anim-glow" />
+    <circle cx="920" cy="100" r="4" fill="#06b6d4" class="anim-glow" />
+    <circle cx="1040" cy="250" r="3.5" fill="#ec4899" class="anim-glow" />
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header Bar & YouTube Play Icon (Never Obscured) -->
+  <g transform="translate(600, 72)" text-anchor="middle">
+    <!-- Stylized YouTube Community Badge -->
+    <g transform="translate(-18, -42) scale(0.72)">
+      <rect x="-32" y="0" width="64" height="44" rx="14" fill="#ff0033" filter="url(#neonRed)" />
+      <polygon points="-8,12 -8,32 12,22" fill="#ffffff" />
+    </g>
+    <text class="title-text" x="0" y="38" font-size="44" filter="url(#subtleShadow)">Awesome YouTube Community Platforms</text>
+    <text class="sub-text" x="0" y="74" font-size="18">The Definitive Ecosystem of SaaS Solutions &amp; Open-Source Engines for Video Creators</text>
+  </g>
+
+  <!-- Accent Divider Line with dynamic center shimmer -->
+  <g transform="translate(420, 195)">
+    <line x1="0" y1="0" x2="360" y2="0" stroke="url(#textGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.8" />
+  </g>
+
+  <!-- FLOATING FEATURE PILLS / TAGS (Strategically Positioned Below Main Title) -->
+  <!-- Pill 1: SaaS Leaders -->
+  <g class="anim-float1" transform="translate(80, 240)">
+    <rect width="210" height="42" rx="21" fill="#1e2230" stroke="url(#badgeBorder)" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)" />
+    <circle cx="24" cy="21" r="9" fill="#ff0033" opacity="0.8" />
+    <text x="24" y="25" text-anchor="middle" font-size="11" fill="#fff">★</text>
+    <text class="tag-text" x="44" y="26">Discord • Circle • Skool</text>
+  </g>
+
+  <!-- Pill 2: Forums & Discussions -->
+  <g class="anim-float2" transform="translate(310, 240)">
+    <rect width="195" height="42" rx="21" fill="#1e2230" stroke="url(#badgeBorder)" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)" />
+    <circle cx="24" cy="21" r="9" fill="#8b5cf6" opacity="0.8" />
+    <text x="24" y="25" text-anchor="middle" font-size="11" fill="#fff">💬</text>
+    <text class="tag-text" x="44" y="26">Discourse • Flarum • NodeBB</text>
+  </g>
+
+  <!-- Pill 3: Federated & Fediverse -->
+  <g class="anim-float3" transform="translate(525, 240)">
+    <rect width="190" height="42" rx="21" fill="#1e2230" stroke="url(#badgeBorder)" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)" />
+    <circle cx="24" cy="21" r="9" fill="#06b6d4" opacity="0.8" />
+    <text x="24" y="25" text-anchor="middle" font-size="11" fill="#fff">🌐</text>
+    <text class="tag-text" x="44" y="26">Lemmy • Mastodon • Matrix</text>
+  </g>
+
+  <!-- Pill 4: Creator Video & Stream -->
+  <g class="anim-float4" transform="translate(735, 240)">
+    <rect width="190" height="42" rx="21" fill="#1e2230" stroke="url(#badgeBorder)" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)" />
+    <circle cx="24" cy="21" r="9" fill="#10b981" opacity="0.8" />
+    <text x="24" y="25" text-anchor="middle" font-size="11" fill="#fff">📹</text>
+    <text class="tag-text" x="44" y="26">PeerTube • Owncast Live</text>
+  </g>
+
+  <!-- Pill 5: Self-Hosted & Free -->
+  <g class="anim-float1" transform="translate(945, 240)">
+    <rect width="175" height="42" rx="21" fill="#1e2230" stroke="url(#badgeBorder)" stroke-width="1.2" opacity="0.95" filter="url(#subtleShadow)" />
+    <circle cx="24" cy="21" r="9" fill="#f59e0b" opacity="0.8" />
+    <text x="24" y="25" text-anchor="middle" font-size="11" fill="#fff">⚡</text>
+    <text class="tag-text" x="44" y="26">100% Data Sovereignty</text>
+  </g>
+
+  <!-- Footer Indicator -->
+  <g transform="translate(600, 320)" text-anchor="middle">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#64748b" letter-spacing="1.2">
+      CURATED ECOSYSTEM FOR YOUTUBE CREATORS &amp; DEVELOPERS • MARCH 2026
+    </text>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+</svg>
