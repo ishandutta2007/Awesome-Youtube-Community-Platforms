@@ -71,137 +71,137 @@ The table below catalogs premier commercial SaaS solutions for YouTube creators.
 
 Take full control of your member data, eliminate third-party platform cuts, and self-host your YouTube community infrastructure. Projects are **strictly sorted in descending order of GitHub stargazers**.
 
-1. **[Mastodon](https://github.com/mastodon/mastodon)** [![GitHub stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social&color=white)](https://github.com/mastodon/mastodon/stargazers)  
+1. **[Mastodon](https://github.com/mastodon/mastodon)** [![GitHub_Stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social&color=white)](https://github.com/mastodon/mastodon/stargazers)  
    *Decentralized, federated microblogging and social networking platform powered by ActivityPub.*  
    Allows YouTube creators to deploy an independent social network where followers can engage with posts, polls, and media from Mastodon or any fediverse server without algorithmic throttling.  
    `Ruby on Rails` • `React` • `ActivityPub` • `AGPL-3.0`
 
-2. **[Discourse](https://github.com/discourse/discourse)** [![GitHub stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)  
+2. **[Discourse](https://github.com/discourse/discourse)** [![GitHub_Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)  
    *The gold-standard modern discussion platform for civilized community conversations.*  
    Features 200+ battle-tested plugins, automated trust levels, AI-assisted moderation, SSO integration (OAuth/SAML), real-time chat channels, and ActivityPub federation.  
    `Ruby on Rails` • `Ember.js` • `PostgreSQL` • `Redis` • `GPL-2.0`
 
-3. **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
+3. **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub_Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
    *The open-source communications OS for team and community collaboration.*  
    Real-time chat, video conferencing, audio channels, omnichannel community engagement, granular role-based permissions, and end-to-end encryption.  
    `TypeScript` • `Node.js` • `MongoDB` • `MIT`
 
-4. **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)  
+4. **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub_Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)  
    *High-performance self-hosted collaboration and real-time community messaging platform.*  
    Delivers organized channels, voice huddles, workflow boards, interactive bot integrations, and complete compliance controls with self-hosted hosting.  
    `Go` • `React` • `PostgreSQL` • `MySQL` • `AGPL-3.0`
 
-5. **[Zulip](https://github.com/zulip/zulip)** [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
+5. **[Zulip](https://github.com/zulip/zulip)** [![GitHub_Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
    *Powerful open-source team chat that uniquely blends real-time chat with email-style threading.*  
    Solves the chaos of high-velocity creator chat rooms by enforcing topic threads, ensuring long-tail conversations never get buried in continuous scrolling.  
    `Python` • `Django` • `TypeScript` • `PostgreSQL` • `Apache-2.0`
 
-6. **[Forem](https://github.com/forem/forem)** [![GitHub stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers)  
+6. **[Forem](https://github.com/forem/forem)** [![GitHub_Stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers)  
    *Open-source community software engineered to power independent, passionate networks.*  
    The battle-tested engine driving DEV.to and CodeNewbie. Features long-form rich articles, podcast feeds, community discussions, badges, listings, and member profiles.  
    `Ruby on Rails` • `Preact` • `PostgreSQL` • `Redis` • `AGPL-3.0`
 
-7. **[PeerTube](https://github.com/Chocobozzz/PeerTube)** [![GitHub stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers)  
+7. **[PeerTube](https://github.com/Chocobozzz/PeerTube)** [![GitHub_Stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers)  
    *Federated, decentralized video hosting, live streaming, and creator community platform.*  
    Powered by ActivityPub and WebTorrent P2P bandwidth distribution. Provides creators with sovereign video channels, comment threads, playlists, and cross-instance federation.  
    `TypeScript` • `Node.js` • `Angular` • `PostgreSQL` • `AGPL-3.0`
 
-8. **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)  
+8. **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub_Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)  
    *Next-generation forum software built on Node.js with instant WebSocket push updates.*  
    Responsive mobile-first layout, rich notification system, RESTful API endpoints, theme manager, and native ActivityPub federation support.  
    `Node.js` • `Redis` • `MongoDB` • `PostgreSQL` • `GPL-3.0`
 
-9. **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)  
+9. **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub_Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)  
    *A link aggregator and discussion platform for the fediverse, written in Rust.*  
    Self-hostable Reddit alternative where creators host community sub-boards that federate across thousands of fediverse servers.  
    `Rust` • `Actix` • `Diesel` • `PostgreSQL` • `AGPL-3.0`
 
-10. **[Element Web / Matrix](https://github.com/element-hq/element-web)** [![GitHub stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)  
+10. **[Element Web / Matrix](https://github.com/element-hq/element-web)** [![GitHub_Stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)  
     *Glossy, modern web client for Matrix — the open standard for decentralized communication.*  
     End-to-end encrypted messaging, voice/video group rooms, and bridges to Discord, Slack, and Telegram for unified community moderation.  
     `TypeScript` • `React` • `Matrix Protocol` • `Apache-2.0`
 
-11. **[Owncast](https://github.com/owncast/owncast)** [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)  
+11. **[Owncast](https://github.com/owncast/owncast)** [![GitHub_Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)  
     *Take control over your live stream video by running it yourself — single binary stream + chat.*  
     Independent YouTube Live and Twitch alternative providing sub-second low-latency video streaming, interactive live chat, custom emotes, tipping links, and Fediverse notifications.  
     `Go` • `WebSockets` • `HLS` • `MIT`
 
-12. **[Misskey](https://github.com/misskey-dev/misskey)** [![GitHub stars](https://img.shields.io/github/stars/misskey-dev/misskey?style=social&color=white)](https://github.com/misskey-dev/misskey/stargazers)  
+12. **[Misskey](https://github.com/misskey-dev/misskey)** [![GitHub_Stars](https://img.shields.io/github/stars/misskey-dev/misskey?style=social&color=white)](https://github.com/misskey-dev/misskey/stargazers)  
     *Interplanetary decentralized microblogging and multimedia community platform.*  
     Rich customizable interface, animated custom emoji reactions, drive file manager, channels, clip creation, and timeline streaming via ActivityPub.  
     `TypeScript` • `Vue 3` • `PostgreSQL` • `Redis` • `AGPL-3.0`
 
-13. **[Flarum](https://github.com/flarum/framework)** [![GitHub stars](https://img.shields.io/github/stars/flarum/framework?style=social&color=white)](https://github.com/flarum/framework/stargazers)  
+13. **[Flarum](https://github.com/flarum/framework)** [![GitHub_Stars](https://img.shields.io/github/stars/flarum/framework?style=social&color=white)](https://github.com/flarum/framework/stargazers)  
     *Delightfully simple, blazing-fast discussion forum software with modular architecture.*  
     Minimalist two-pane discussion navigation, instant search, lightweight mobile layout, and a rich ecosystem of community extensions.  
     `PHP` • `Mithril.js` • `MySQL` • `MIT`
 
-14. **[WriteFreely](https://github.com/writefreely/writefreely)** [![GitHub stars](https://img.shields.io/github/stars/writefreely/writefreely?style=social&color=white)](https://github.com/writefreely/writefreely/stargazers)  
+14. **[WriteFreely](https://github.com/writefreely/writefreely)** [![GitHub_Stars](https://img.shields.io/github/stars/writefreely/writefreely?style=social&color=white)](https://github.com/writefreely/writefreely/stargazers)  
     *Clean, distraction-free Markdown publishing platform built for community writing.*  
     Allows creators to publish long-form newsletters, tutorials, and community publications connected to the fediverse via ActivityPub.  
     `Go` • `Markdown` • `SQLite` • `MySQL` • `AGPL-3.0`
 
-15. **[Bonfire](https://github.com/bonfire-networks/bonfire-app)** [![GitHub stars](https://img.shields.io/github/stars/bonfire-networks/bonfire-app?style=social&color=white)](https://github.com/bonfire-networks/bonfire-app/stargazers)  
+15. **[Bonfire](https://github.com/bonfire-networks/bonfire-app)** [![GitHub_Stars](https://img.shields.io/github/stars/bonfire-networks/bonfire-app?style=social&color=white)](https://github.com/bonfire-networks/bonfire-app/stargazers)  
     *Modular, federated community platform for coordinating discussions, groups, and actions.*  
     Enables creators to establish circles, collaborative decision boards, and private feeds that federate securely across the ActivityPub network.  
     `Elixir` • `Phoenix` • `LiveView` • `AGPL-3.0`
 
-16. **[Valour](https://github.com/Valour-Software/Valour)** [![GitHub stars](https://img.shields.io/github/stars/Valour-Software/Valour?style=social&color=white)](https://github.com/Valour-Software/Valour/stargazers)  
+16. **[Valour](https://github.com/Valour-Software/Valour)** [![GitHub_Stars](https://img.shields.io/github/stars/Valour-Software/Valour?style=social&color=white)](https://github.com/Valour-Software/Valour/stargazers)  
     *Next-generation community platform organizing spaces into interactive "planets".*  
     Features real-time chat channels, threaded forum feeds, internal wikis, integrated voice/video calling, and member virtual hubs.  
     `C#` • `.NET` • `Blazor` • `PostgreSQL` • `AGPL-3.0`
 
-17. **[Storyden](https://github.com/southclaws/storyden)** [![GitHub stars](https://img.shields.io/github/stars/southclaws/storyden?style=social&color=white)](https://github.com/southclaws/storyden/stargazers)  
+17. **[Storyden](https://github.com/southclaws/storyden)** [![GitHub_Stars](https://img.shields.io/github/stars/southclaws/storyden?style=social&color=white)](https://github.com/southclaws/storyden/stargazers)  
     *Modern forum platform fusing threaded discussions, Pinterest-style visual curation, and wikis.*  
     Prioritizes permanence, search discoverability, and automatic content tagging with full API automation.  
     `Go` • `TypeScript` • `SQLite` • `PostgreSQL` • `MPL-2.0`
 
-18. **[Nodyx](https://github.com/Pokled/nodyx)** [![GitHub stars](https://img.shields.io/github/stars/Pokled/nodyx?style=social&color=white)](https://github.com/Pokled/nodyx/stargazers)  
+18. **[Nodyx](https://github.com/Pokled/nodyx)** [![GitHub_Stars](https://img.shields.io/github/stars/Pokled/nodyx?style=social&color=white)](https://github.com/Pokled/nodyx/stargazers)  
     *Self-hosted all-in-one platform: Forum + Chat + Voice + P2P + Whiteboard + Homepage Builder.*  
     Runs on a single server or home Raspberry Pi behind a router with zero open ports required. One server, one community, forever.  
     `TypeScript` • `Node.js` • `WebRTC` • `AGPL-3.0`
 
-19. **[Backspace](https://github.com/TheZwiss/backspace)** [![GitHub stars](https://img.shields.io/github/stars/TheZwiss/backspace?style=social&color=white)](https://github.com/TheZwiss/backspace/stargazers)  
+19. **[Backspace](https://github.com/TheZwiss/backspace)** [![GitHub_Stars](https://img.shields.io/github/stars/TheZwiss/backspace?style=social&color=white)](https://github.com/TheZwiss/backspace/stargazers)  
     *Self-hosted Discord alternative with voice, HD video, 4K/120fps screen share, and federation.*  
     Features LiveKit-powered media channels, HMAC-signed server-to-server federation, Electron desktop app, and responsive mobile PWA.  
     `TypeScript` • `LiveKit` • `WebRTC` • `AGPL-3.0`
 
-20. **[MemberMatters](https://github.com/membermatters/MemberMatters)** [![GitHub stars](https://img.shields.io/github/stars/membermatters/MemberMatters?style=social&color=white)](https://github.com/membermatters/MemberMatters/stargazers)  
+20. **[MemberMatters](https://github.com/membermatters/MemberMatters)** [![GitHub_Stars](https://img.shields.io/github/stars/membermatters/MemberMatters?style=social&color=white)](https://github.com/membermatters/MemberMatters/stargazers)  
     *Open-source membership, subscription billing, and physical/digital access control solution.*  
     Recurring member billing via Stripe, member self-service portal, Discourse SSO provider integration, and hardware access logging.  
     `Python` • `Django` • `Vue.js` • `Stripe` • `MIT`
 
-21. **[Lineweb Social](https://github.com/drewmt/lineweb-social)** [![GitHub stars](https://img.shields.io/github/stars/drewmt/lineweb-social?style=social&color=white)](https://github.com/drewmt/lineweb-social/stargazers)  
+21. **[Lineweb Social](https://github.com/drewmt/lineweb-social)** [![GitHub_Stars](https://img.shields.io/github/stars/drewmt/lineweb-social?style=social&color=white)](https://github.com/drewmt/lineweb-social/stargazers)  
     *Self-hosted creator social platform with spaces, 24-hour stories, and member feeds.*  
     Pressure-free social networking with threaded conversations, media galleries, light/dark mode, and cohort invitation tokens.  
     `PHP` • `Laravel` • `Vue.js` • `Docker` • `MIT`
 
-22. **[Daccord](https://github.com/DaccordProject/daccord)** [![GitHub stars](https://img.shields.io/github/stars/DaccordProject/daccord?style=social&color=white)](https://github.com/DaccordProject/daccord/stargazers)  
+22. **[Daccord](https://github.com/DaccordProject/daccord)** [![GitHub_Stars](https://img.shields.io/github/stars/DaccordProject/daccord?style=social&color=white)](https://github.com/DaccordProject/daccord/stargazers)  
     *Free, privacy-focused open-source chat and voice application for communities.*  
     Self-host your own Accord server daemon with native Flutter client apps across desktop and mobile, custom emoji support, and zero corporate telemetry.  
     `Dart` • `Flutter` • `Go` • `LiveKit` • `GPL-3.0`
 
-23. **[Ashley](https://github.com/openfun/ashley)** [![GitHub stars](https://img.shields.io/github/stars/openfun/ashley?style=social&color=white)](https://github.com/openfun/ashley/stargazers)  
+23. **[Ashley](https://github.com/openfun/ashley)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/ashley?style=social&color=white)](https://github.com/openfun/ashley/stargazers)  
     *Self-hosted multi-tenant discussion forum framework tailored for educational learning cohorts.*  
     Designed for video course creators, cohort classes, and structured Q&A interaction across member groups.  
     `Python` • `Django` • `React` • `MIT`
 
-24. **[Roost](https://github.com/msrbuilds/roost)** [![GitHub stars](https://img.shields.io/github/stars/msrbuilds/roost?style=social&color=white)](https://github.com/msrbuilds/roost/stargazers)  
+24. **[Roost](https://github.com/msrbuilds/roost)** [![GitHub_Stars](https://img.shields.io/github/stars/msrbuilds/roost?style=social&color=white)](https://github.com/msrbuilds/roost/stargazers)  
     *Self-hosted creator community platform positioned as an open-source Skool & Circle alternative.*  
     Features integrated Stripe subscription payments, course modules with progress bars, live streaming rooms, leaderboards, and member showcases.  
     `React` • `TypeScript` • `Node.js` • `Supabase` • `MIT`
 
-25. **[CommonPub](https://github.com/commonpub/commonpub)** [![GitHub stars](https://img.shields.io/github/stars/commonpub/commonpub?style=social&color=white)](https://github.com/commonpub/commonpub/stargazers)  
+25. **[CommonPub](https://github.com/commonpub/commonpub)** [![GitHub_Stars](https://img.shields.io/github/stars/commonpub/commonpub?style=social&color=white)](https://github.com/commonpub/commonpub/stargazers)  
     *Open ActivityPub federation protocol suite and UI components for self-hosted maker spaces.*  
     Consists of 14 modular packages including schema, protocol auth, Meilisearch indexing, and Vue 3 frontend components.  
     `TypeScript` • `Nuxt 3` • `Vue 3` • `PostgreSQL` • `MIT`
 
-26. **[Harmony Server](https://github.com/tartine-studio/harmony-server)** [![GitHub stars](https://img.shields.io/github/stars/tartine-studio/harmony-server?style=social&color=white)](https://github.com/tartine-studio/harmony-server/stargazers)  
+26. **[Harmony Server](https://github.com/tartine-studio/harmony-server)** [![GitHub_Stars](https://img.shields.io/github/stars/tartine-studio/harmony-server?style=social&color=white)](https://github.com/tartine-studio/harmony-server/stargazers)  
     *Zero-configuration, single-binary Discord alternative written in Go.*  
     Automatic embedded SQLite database, Pion WebRTC audio SFU, WebSocket text messaging, and zero-effort self-hosting.  
     `Go` • `WebRTC` • `SQLite` • `AGPL-3.0`
 
-27. **[Createon](https://github.com/opd-ai/createon)** [![GitHub stars](https://img.shields.io/github/stars/opd-ai/createon?style=social&color=white)](https://github.com/opd-ai/createon/stargazers)  
+27. **[Createon](https://github.com/opd-ai/createon)** [![GitHub_Stars](https://img.shields.io/github/stars/opd-ai/createon?style=social&color=white)](https://github.com/opd-ai/createon/stargazers)  
     *Minimalist self-hosted Patreon alternative enabling cryptocurrency subscriber tiers.*  
     Flat-file architecture without SQL databases, supporting Bitcoin and Monero automated access verification and Markdown paywalled posts.  
     `Go` • `CLI` • `Crypto Payments` • `MIT`
@@ -241,11 +241,11 @@ We welcome contributions! Please help expand this ecosystem:
 
 1. **Fork** this repository.
 2. Ensure any SaaS addition includes verified pricing, free tier limits, and company scale metrics.
-3. For open-source projects, link the official GitHub repository and include the star count badge:
+3. For open-source projects, link the official GitHub repository and include the Stars_Count badge:
    ```markdown
-   **[ProjectName](https://github.com/owner/repo)** [![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)
+   **[ProjectName](https://github.com/owner/repo)** [![GitHub_Stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)
    ```
-4. Insert the open-source entry in the **descending star count order**.
+4. Insert the open-source entry in the **descending Stars_Count order**.
 5. Submit a pull request with a concise summary of changes.
 
 ---
